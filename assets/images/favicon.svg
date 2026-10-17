@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="fav-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F2756" />
+      <stop offset="100%" stop-color="#0D9488" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#fav-grad)" />
+  <!-- Microscope silhouette / Molecular symbol -->
+  <g fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Eyepiece & Tube -->
+    <line x1="38" y1="14" x2="30" y2="28" stroke-width="3" />
+    <circle cx="41" cy="11" r="3" fill="#14B8A6" stroke="none" />
+    <!-- Revolving Nosepiece -->
+    <circle cx="28" cy="30" r="4" fill="#0F2756" stroke="#5EEAD4" stroke-width="2" />
+    <!-- Objective lens -->
+    <line x1="26" y1="33" x2="23" y2="38" stroke-width="2.5" />
+    <!-- Stage -->
+    <line x1="17" y1="41" x2="35" y2="41" stroke="#5EEAD4" stroke-width="3" />
+    <!-- Arm curve -->
+    <path d="M 33 24 C 44 26 44 44 32 46" stroke-width="2.5" />
+    <!-- Pillar and Base -->
+    <line x1="30" y1="46" x2="30" y2="52" stroke-width="3" />
+    <line x1="16" y1="52" x2="48" y2="52" stroke-width="3" />
+  </g>
+  <!-- Molecular node accents -->
+  <circle cx="49" cy="22" r="2.5" fill="#5EEAD4" />
+  <circle cx="16" cy="24" r="2" fill="#5EEAD4" opacity="0.8" />
+  <line x1="49" y1="22" x2="44" y2="28" stroke="#5EEAD4" stroke-width="1" stroke-dasharray="2,2" opacity="0.6" />
+</svg>
