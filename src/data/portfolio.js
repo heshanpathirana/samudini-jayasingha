@@ -27,7 +27,7 @@ export const portfolioData = {
     university: "University of Sri Jayewardenepura, Sri Lanka",
     faculty: "Faculty of Applied Science",
     academicLevel: "Third-year undergraduate",
-    expectedGraduationYear: "2027",
+    expectedGraduationYear: "2028",
     
     // Core Subject Combination
     subjectCombination: ["Zoology", "Microbiology", "Chemistry"],
@@ -114,7 +114,7 @@ export const portfolioData = {
       institution: "Kegalu Balika Vidyalaya - Kegalle",
       degree: "G.C.E. Advanced Level (Biological Science Stream)",
       period: "Completed: 2022",
-      results: "Results: B, B, C",
+      results: "Results: B, C, C",
       details: [
         "Completed Advanced Level examinations in the Biological Science stream.",
         "Built a strong foundational understanding in Biology, Chemistry, and Physics.",
@@ -126,10 +126,10 @@ export const portfolioData = {
       institution: "Sri Sanghabodhi Central College - Nittambuwa",
       degree: "G.C.E. Ordinary Level",
       period: "Completed with Distinction",
-      results: "Results: 8 As and 1 B",
+      results: "Results: 7 As and 2 B",
       details: [
-        "8 'A' Grades: Science, Mathematics, Buddhism, Sinhala, History, English, Health & Physical Education, Business & Accounting Studies.",
-        "1 'B' Grade: Sinhala Literature.",
+        "7 'A' Grades: Science, Mathematics, Buddhism, Sinhala, History, Health & Physical Education, Business & Accounting Studies.",
+        "2 'B' Grade:  English, Sinhala Literature.",
         "Demonstrated well-rounded academic excellence across sciences, mathematics, and humanities."
       ],
       current: false
