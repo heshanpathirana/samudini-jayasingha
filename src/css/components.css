@@ -398,6 +398,12 @@
   border: 1px solid rgba(15, 39, 86, 0.15);
 }
 
+.badge-emerald {
+  background-color: #EEF2F6;
+  color: var(--color-emerald-800);
+  border: 1px solid rgba(80, 200, 120, 0.15);
+}
+
 .badge-mint {
   background-color: var(--color-mint-50);
   color: var(--color-teal-800);
